@@ -19,7 +19,6 @@
 
 html {
   font-size: 62.5%;
-  overflow: hidden;
 }
 main {
   width: 100%;
@@ -31,6 +30,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 .bg__pattern {
   position: absolute;
@@ -196,9 +196,6 @@ main {
 }
 
 @media (max-width: 37.5em) {
-  html {
-    overflow: visible;
-  }
   main {
     height: 100%;
     padding: 5.5rem 0;
